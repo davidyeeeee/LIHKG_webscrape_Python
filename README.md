@@ -16,12 +16,17 @@ Main Features
 
 Configuration Parameters (Edit these inside the script)
 
-Parameter        Description
-TARGET_START     Start date for filtering posts (inclusive). Format: "YYYY-MM-DD". Example: "2026-03-16"
-TARGET_END       End date for filtering posts (inclusive). Format: "YYYY-MM-DD". Example: "2026-03-22"
-TOP_PERCENT      Fraction of posts to keep after sorting by total engagement. 1 = keep all. 0.2 = keep top 20% (e.g., only most engaging posts). Example: 1
-SAVE_PATH        Directory where the CSV file will be saved. Use raw string (r"...") to avoid escape issues. Example: r"C:\Users\...\project"
-FILE_NAME        Name of the output CSV file. Example: "LIHKG_SOCI_FINAL_DATA.csv"
+Parameter Description
+
+TARGET_START: Start date for filtering posts (inclusive). Format: "YYYY-MM-DD". Example: "2026-03-16"
+
+TARGET_END: End date for filtering posts (inclusive). Format: "YYYY-MM-DD". Example: "2026-03-22"
+
+TOP_PERCENT: Fraction of posts to keep after sorting by total engagement. 1 = keep all. 0.2 = keep top 20% (e.g., only most engaging posts). Example: 1
+
+SAVE_PATH: Directory where the CSV file will be saved. Use raw string (r"...") to avoid escape issues. Example: r"C:\Users\...\project"
+
+FILE_NAME: Name of the output CSV file. Example: "LIHKG_SOCI_FINAL_DATA.csv"
 
 ---
 
