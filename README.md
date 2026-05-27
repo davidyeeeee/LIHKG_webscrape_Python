@@ -132,4 +132,17 @@ Notes
 - The TOP_PERCENT parameter works after date filtering, so it only reduces the final dataset, not the number of visited threads.
 - Because LIHKG loads more posts only when you scroll down, the script's automatic scrolling is essential. If you want to test manually, you can comment out the scrolling loop and scroll by hand while the script waits for keyboard input.
 
+---
+AI Use Declaration
+
+This project was developed with the assistance of an AI language model (OpenAI's GPT-4o / ChatGPT). The AI was used for the following purposes:
+
+- Generating initial code snippets and function structures
+- Translating comments and documentation into English
+- Debugging and suggesting improvements for web scraping logic and API integration
+- Drafting the project README and configuration instructions
+
+All AI-generated code and text have been reviewed, tested, and modified as necessary by the human author to ensure correctness, safety, and compliance with the project's academic goals. The final work remains the original intellectual contribution of the author, with the AI acting as a coding assistant and writing aid.
+
+
 Happy scraping!
