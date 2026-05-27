@@ -12,7 +12,7 @@ TARGET_START = pd.to_datetime("2026-03-16")
 TARGET_END = pd.to_datetime("2026-03-22")
 TOP_PERCENT = 1          # 1 = keep 100% of posts; 0.2 = top 20% by engagement
 
-SAVE_PATH = r"C:\Users\..."
+SAVE_PATH = "./data"
 FILE_NAME = "LIHKG.csv"
 
 
